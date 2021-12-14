@@ -1,16 +1,16 @@
-title:              pankaj
-email:              pankaj
-description:        pankaj
-author:             pankaj
+title:              Data Analysis HandsOn Notes
+email:              pkj.bhatt@yahoo.com
+description:        This includes series of blogs on my way to learn and apply data science and AI.
+author:             pankaj Bhatt
 baseurl:            ""
 url:                "https://pankaj2505.github.io"
 
 # Social Profiles
-twitter_username:   pankaj
-github_username:    pankaj
-facebook_username:  pankaj
+twitter_username:   
+github_username:    https://github.com/Pankaj2505
+facebook_username:  
 instagram_username:  
-linkedin_username:
+linkedin_username: https://www.linkedin.com/in/pkjbhatt/
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
