@@ -1,11 +1,13 @@
 ---
 layout: post
 title:  "Basics of Numpy"
-date:   2021-12-01 19:46:21 +0530
 categories: Numpy
+background: '/img/posts/numpy/cheetSheet.png'
 ---
 
-# [Taken reference from ](https://jakevdp.github.io/PythonDataScienceHandbook/)
+[Taken reference from ](https://jakevdp.github.io/PythonDataScienceHandbook/)
+<br>
+<a href="\img\posts\numpy\cheetSheet.pdf" download>Download CheetSheet</a>
 
 ## Data Type
 
