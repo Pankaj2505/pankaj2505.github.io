@@ -1,29 +1,40 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2021-12-12 19:46:21 +0530
-categories: jekyll update
+title:  Jekyll Notes
+categories: jekyll
+background: '/img/posts/numpy/cheetSheet1.png'
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+1. Install ruby   dev version and run 1,3 when ruby command prompt appear
 
-`YEAR-MONTH-DAY-title.MARKUP`
+2. open cmd and run command
+> gem install jekyll bundler
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+3. run command in CMD to check version
+> ruby -v
+> jekyll -v
 
-Jekyll also offers powerful support for code snippets:
+4. To create a new project run command
+> gem new <projectname>
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+5. To run the server , ever first time
+> bundle exec jekyll serve  
+> from next time jekyll serve can work
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+6. To stop the server
+> Cntrl + C
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+7. To clear terminal screen
+> clear 
+
+6. when ever you want to include draft pages to your server
+> jekyll serve --draft
+
+7. Naming Convention for drafts
+> Do not include date as prefix of file name  
+> include date only when moving post to _post directory
+
+8. Frontmatter
+> it becomes part of url  
+> title, date, cateogry comes as a part of url
+
