@@ -5,6 +5,7 @@ categories: jekyll
 background: '/img/posts/numpy/cheetSheet1.png'
 ---
 
+### Installation and launching the server
 1. Install ruby   dev version and run 1,3 when ruby command prompt appear
 
 2. open cmd and run command
@@ -14,8 +15,10 @@ background: '/img/posts/numpy/cheetSheet1.png'
 > ruby -v
 > jekyll -v
 
-4. To create a new project run command
-> gem new <projectname>
+4. To create a new project  , go to the designated directory and run command
+> jekyll new projectname
+
+5. cd projectname
 
 5. To run the server , ever first time
 > bundle exec jekyll serve  
@@ -27,7 +30,19 @@ background: '/img/posts/numpy/cheetSheet1.png'
 7. To clear terminal screen
 > clear 
 
-6. when ever you want to include draft pages to your server
+
+### how to host site in github
+1. create a new repository, with out read me file. 
+2. edit config.yml file and add your repository name in base URL.
+3. keep the url filed empty
+4. run git init , git add . , git commit -m "message", git add origin .
+5. create a new branch called git checkout -b gh-pages
+6. git push origin gh-pages
+7. take the url from setting page.
+
+
+### How to create post
+1. when ever you want to include draft pages to your runnig site 
 > jekyll serve --draft
 
 7. Naming Convention for drafts
@@ -38,3 +53,9 @@ background: '/img/posts/numpy/cheetSheet1.png'
 > it becomes part of url  
 > title, date, cateogry comes as a part of url
 
+### how to create structure of page
+##### _layout 
+
+##### _include
+
+##### _SASS
