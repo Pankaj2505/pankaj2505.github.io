@@ -13,7 +13,25 @@ background: '/img/posts/numpy/cheetSheet.png'
 2. aggreagate function
 3. Broadcasting
 
+## we also need to check operatior like
+1. arithmatic 
+2. relational
+3. boolean and, or, not.
 
+4. aggregation function
+   - they are differ because of execution in compiled mode
+   - np.aggregate can do dimension wise aggregation
+5. np.any(),np.all(),np.sum()
+
+6. bit wise operator
+    - &	np.bitwise_and	
+    - |	np.bitwise_or
+    - ^	np.bitwise_xor	
+    - ~	np.bitwise_not 
+ 7. difference between boolean and bitwise
+ > The difference is this: and and or gauge the truth or falsehood of entire object, while & and | refer to bits within each object.  
+ 
+  
 
 ## Universal function
 
