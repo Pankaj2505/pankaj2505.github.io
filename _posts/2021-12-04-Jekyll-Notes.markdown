@@ -23,6 +23,7 @@ background: '/img/posts/numpy/cheetSheet1.png'
 5. To run the server , ever first time
 > bundle exec jekyll serve  
 > from next time jekyll serve can work
+> jekyll serve --livereload
 
 6. To stop the server
 > Cntrl + C
@@ -50,6 +51,7 @@ background: '/img/posts/numpy/cheetSheet1.png'
 > include date only when moving post to _post directory
 
 8. Frontmatter
+> front matter tell the jeykll server that it needs to do something
 > it becomes part of url  
 > title, date, cateogry comes as a part of url
 
