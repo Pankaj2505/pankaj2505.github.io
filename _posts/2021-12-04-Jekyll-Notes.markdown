@@ -3,6 +3,7 @@ layout: post
 title:  Jekyll Notes
 categories: jekyll
 background: '/img/posts/numpy/cheetSheet1.png'
+permalink: /:categories/:title
 ---
 
 ### Installation and launching the server
