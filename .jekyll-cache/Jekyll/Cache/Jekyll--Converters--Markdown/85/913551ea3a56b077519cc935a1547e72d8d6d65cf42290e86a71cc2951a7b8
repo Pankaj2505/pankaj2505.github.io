@@ -1,0 +1,83 @@
+I"�<h3 id="installation-and-launching-the-server">Installation and launching the server</h3>
+<ol>
+  <li>
+    <p>Install ruby   dev version and run 1,3 when ruby command prompt appear</p>
+  </li>
+  <li>open cmd and run command
+    <blockquote>
+      <p>gem install jekyll bundler</p>
+    </blockquote>
+  </li>
+  <li>run command in CMD to check version
+    <blockquote>
+      <p>ruby -v
+jekyll -v</p>
+    </blockquote>
+  </li>
+  <li>To create a new project  , go to the designated directory and run command
+    <blockquote>
+      <p>jekyll new projectname</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>cd projectname</p>
+  </li>
+  <li>To run the server , ever first time
+    <blockquote>
+      <p>bundle exec jekyll serve<br />
+from next time jekyll serve can work
+jekyll serve –livereload</p>
+    </blockquote>
+  </li>
+  <li>To stop the server
+    <blockquote>
+      <p>Cntrl + C</p>
+    </blockquote>
+  </li>
+  <li>To clear terminal screen
+    <blockquote>
+      <p>clear</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h3 id="how-to-host-site-in-github">how to host site in github</h3>
+<ol>
+  <li>create a new repository, with out read me file.</li>
+  <li>edit config.yml file and add your repository name in base URL.</li>
+  <li>keep the url filed empty</li>
+  <li>run git init , git add . , git commit -m “message”, git add origin .</li>
+  <li>create a new branch called git checkout -b gh-pages</li>
+  <li>git push origin gh-pages</li>
+  <li>take the url from setting page.</li>
+</ol>
+
+<h3 id="how-to-create-post">How to create post</h3>
+<ol>
+  <li>when ever you want to include draft pages to your runnig site
+    <blockquote>
+      <p>jekyll serve –draft</p>
+    </blockquote>
+  </li>
+  <li>Naming Convention for drafts
+    <blockquote>
+      <p>Do not include date as prefix of file name<br />
+include date only when moving post to _post directory</p>
+    </blockquote>
+  </li>
+  <li>Frontmatter
+    <blockquote>
+      <p>front matter tell the jeykll server that it needs to do something
+it becomes part of url<br />
+title, date, cateogry comes as a part of url</p>
+    </blockquote>
+  </li>
+</ol>
+
+<h3 id="how-to-create-structure-of-page">how to create structure of page</h3>
+<h5 id="_layout">_layout</h5>
+
+<h5 id="_include">_include</h5>
+
+<h5 id="_sass">_SASS</h5>
+:ET
